@@ -1,0 +1,13 @@
+.element-1 {
+background-color: hsla(199, 100%, 3%, 1);
+color: white;
+}
+
+.element-2 {
+    background-color: yellow;
+}
+
+.element-1, .element-2 {
+    font-family: 'Times New Roman', 'Helvetica', sans-serif;
+    font-size: 28px;
+}
