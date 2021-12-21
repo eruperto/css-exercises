@@ -1,0 +1,25 @@
+/* This solution utilizes a CSS Descendant selector in addition to a chain selector.
+
+This solution says to apply these rules to the element that is the descendant of the <div> element, and is a <p> element that also has a class of "text".*/
+
+/*
+div p.text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* This solution says to style the descendant of the div element that has the class of "text" */
+
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
