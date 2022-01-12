@@ -63,7 +63,9 @@ body {
 }
 
 .text {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  color: hsla(86, 6%, 27%, 1);
+  width: 90% 
 }
 
 button {
@@ -74,6 +76,12 @@ button {
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
+  color: white;
+}
+
+button.continue:hover {
+  background: rgb(23, 57, 160);
+  border: 1px solid rgb(23, 57, 160);
   color: white;
 }
 
